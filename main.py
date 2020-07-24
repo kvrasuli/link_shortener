@@ -31,8 +31,8 @@ def count_clicks(token, link):
 def main():
   load_dotenv()
   bitly_token = os.getenv("BITLY_TOKEN")
-  parser = argparse.ArgumentParser(description='Link shortener')
-  parser.add_argument('url', help='Your long link starting with http or https')
+  parser = argparse.ArgumentParser(description='Link shortener and clicks counter')
+  parser.add_argument('url', help='Your link starting with http or https')
   url = parser.parse_args().url
 
   if url.startswith(('https://bit.ly', 'http://bit.ly')):
