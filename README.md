@@ -1,10 +1,10 @@
 # Bitly URL shorterer
 
-This is a console URL shortener which uses bit.ly API and also counts clicks on short link.
+This is a console URL shortener which uses bit.ly API and also counts clicks on the short link.
 
 ### How to use
 
-Just run the python script main.py with following concole command:
+Just run the python script main.py with the following concole command:
 ```
 python main.py [your URL starting with http or https]
 ```
@@ -12,7 +12,7 @@ For example:
 ```
 python main.py https://google.com
 ```
-Result will be:
+The result will be:
 ```
 Битлинк: https://bit.ly/3hwtIZF
 Число кликов: 0
@@ -25,7 +25,7 @@ Then use `pip` (or `pip3`, if there is a conflict with Python2) to install depen
 ```
 pip install -r requirements.txt
 ```
-I don't think you need to use virtual envs for such a small script.
+I don't think you need to use any virtual envs for such a small script.
 
 ### Project Goals
 
