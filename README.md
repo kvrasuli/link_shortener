@@ -1,4 +1,4 @@
-# Bitly URL shorterer
+# Bitly URL shortener
 
 This is a console URL shortener which uses bit.ly API and also counts clicks on the short link.
 
